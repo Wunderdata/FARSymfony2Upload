@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Wunderdata\\FARSymfony2UploadBundle\\": ""
+            "faparicior\\FARSymfony2UploadBundle\\": ""
         }
     },
     "require": {
