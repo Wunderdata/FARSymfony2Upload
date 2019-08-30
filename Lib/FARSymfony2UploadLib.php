@@ -97,7 +97,8 @@ class FARSymfony2UploadLib
                 $validFile = $this->validateFile($properties);
                 if ($validFile[0] == true) {
                     $file->move($properties['temp_dir'], $properties['name_uid']);
-                    $this->createThumbnail($properties);
+                    if(!$properties['extension']='txt')
+                        $this->createThumbnail($properties);
                 }
                 $response['data'] = $this->getjQueryUploadResponse($properties, $validFile);
             }
