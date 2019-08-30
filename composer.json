@@ -1,6 +1,7 @@
 {
     "name": "wunderdata/farsymfony2upload",
     "description": "Integrates JqueryUpload into Symfony2 with OneUpFlySystem",
+    "homepage": "https://github.com/Wunderdata/easy-deploy-bundle-wunderfork",
     "type": "symfony-bundle",
     "keywords" : [
       "Bundle JqueryUpload FlySystem Symfony2"
